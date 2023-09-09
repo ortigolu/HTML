@@ -15,6 +15,8 @@ console.log(colors[2]);
 //modify an array
 colors[0] = "black";
 
+jhgkjhgkjh;
+
 //push method
 colors.push("white");
 
