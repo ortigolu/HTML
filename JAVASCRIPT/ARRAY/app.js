@@ -39,3 +39,13 @@ console.log(colors.indexOf("red"));
 
 //join method
 console.log(colors.join(" "));
+
+//slice method
+console.log(colors.slice(1, 3));
+
+//nested arryas example
+let nestedArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9, [10, 11, 12]],
+];
