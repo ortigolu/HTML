@@ -36,3 +36,6 @@ console.log(colors.includes("red"));
 
 //indexOf method
 console.log(colors.indexOf("red"));
+
+//join method
+console.log(colors.join(" "));
