@@ -1,39 +1,35 @@
-const btn = document.querySelector('#v2');
-
+//SECOND CLASS EVENT MOUSE CLICK
+const btn = document.querySelector("#v2");
 btn.onclick = function () {
-    console.log("YOU CLICKED ME!")
-    console.log("I HOPE IT WORKED!!")
-}
+  console.log("You clicked me!");
+  console.log("I hope this works!");
+};
 
 function scream() {
-    console.log("AAAAAHHHHH");
-    console.log("STOP TOUCHING ME!")
+  console.log("AAAAHHHHHH!!");
 }
-
 btn.onmouseenter = scream;
 
+document.querySelector("h1").onclick = () => {
+  alert("YOu clicked me!");
+};
 
-document.querySelector('h1').onclick = () => {
-    alert('you clicked the h1!')
+const btn3 = document.querySelector("#v3");
+btn3.addEventListener("click", function () {
+  alert("YOu clicked me!");
+});
+
+function twist1() {
+  console.log("twist");
 }
 
-
-const btn3 = document.querySelector('#v3');
-btn3.addEventListener('click', function () {
-    alert("CLICKED!");
-})
-
-function twist() {
-    console.log("TWIST!")
-}
 function shout() {
-    console.log("SHOUT!")
+  console.log("shout");
 }
 
-const tasButton = document.querySelector('#tas');
+const twist = document.querySelector("#tas");
+// twist.onclick = twist1;
+// twist.onclick = shout;
 
-// tasButton.onclick = twist;
-// tasButton.onclick = shout;
-
-tasButton.addEventListener('click', twist)
-tasButton.addEventListener('click', shout)
+twist.addEventListener("click", twist1);
+twist.addEventListener("click", shout);
