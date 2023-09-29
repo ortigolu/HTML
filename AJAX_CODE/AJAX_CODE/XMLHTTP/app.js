@@ -4,6 +4,7 @@ const req = new XMLHttpRequest();
 
 req.onload = function () {
   console.log("IT LOADED!!");
+  //parse a json to an object
   const data = JSON.parse(this.responseText);
   console.log(data.name, data.height);
 };
