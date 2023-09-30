@@ -11,3 +11,6 @@ exports.PI = PI;
 // module.exports.add = add;
 // module.exports.PI = PI;
 // module.exports.square = square;
+
+const cats = require("./shelter");
+console.log("Requiered an entire directory");
