@@ -1,0 +1,4 @@
+To start a new project in NODEJS
+npm innit -y
+npm i express "to install the express module"
+
