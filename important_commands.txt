@@ -2,3 +2,16 @@ To start a new project in NODEJS
 npm innit -y
 npm i express "to install the express module"
 
+
+
+
+
+--important commands in mongoDB
+to start a database: sudo systemctl start mongod
+to verify the status of a databas: sudo systemctl status mongod
+to execut mongodb: mongosh
+to insert in a db: db.dogs.insert([{name: "grouil", breed: "golden", age: 14, catFriendly: false}, {name: "tonya", breed: "chiguaugu", age: 17, catFriendly: true}])
+to find in a db: db.dogs.find()
+to search all the dbs: show dbs
+to switch db: use local
+
